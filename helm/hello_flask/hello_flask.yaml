@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: fike/hello_flask
+  repository: 783399821532.dkr.ecr.us-east-1.amazonaws.com/hello_flask
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "blue"
+  tag: "red"
 
 imagePullSecrets: []
 nameOverride: ""
